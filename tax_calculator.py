@@ -1,4 +1,4 @@
-"""Personal tool for getting total gross payments and tax withheld from .PDF payslips."""
+"""Personal tool for getting total gross and net payments from .PDF payslips."""
 from os import listdir
 from PyPDF4.pdf import PdfFileReader
 
@@ -12,7 +12,7 @@ $"""
 
 
 def main():
-    """Get total gross payments and tax withheld from .PDF payslips"""
+    """Get total gross and net payments from .PDF payslips"""
     total_gross = 0
     total_net = 0
 
